@@ -17,6 +17,8 @@ Each project and topic has its own folder here and I will try my best to highlig
 - [X] JPGtoPNG.py: Automates the image type convertion from the .jpeg files at __Pokedex/__ to the .png format at __new/__. You can change these dir if you wish!
 - [X] pdfPython.py: Introduction to manipulate PDF files with PyPDF2.
 - [X] PDFMerger.py: Automates the .pdf files with python with PyPDF2. At my setup, I save the merged pdf into __./pdfFiles__ directory.
+- [X] watermark.py: Automates the watermarking .pdf files with python and PyPDF2. At my setup, I merge the __./pdfFiles/wtr.pdf__ with the desired PDFs. You can change your watermark model by replacing this file! The generated files are also inside __./pdfFiles__ directory names as __watermarkedPDF#__, wherein # varies as the number of arguments passed to the script.
+
 
 ### Requirements
 - [Pillow](https://pillow.readthedocs.io/en/stable/)
@@ -45,11 +47,14 @@ python3 JPGtoPNG.py Pokedex/ new/
 python3 JPGtoPNG.py Pokedex/ new/
 ```
 
-- __JPGtoPNG.py__ :
+- __PDFMerger.py__ :
 ``` sh
 python3 PDFMerger.py <pdfFile1> <pdfFile2> ... <pdfFileN>
 ```
 
-
+- __watermark.py__ :
+``` sh
+python3 watermark.py <pdfFile1> <pdfFile2> ... <pdfFileN>
+```
 
 
