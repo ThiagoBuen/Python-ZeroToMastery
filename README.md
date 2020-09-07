@@ -47,7 +47,7 @@ python3 JPGtoPNG.py Pokedex/ new/
 
 - __JPGtoPNG.py__ :
 ``` sh
-python3 PDFMerger.py <<pdfFile1>> <<pdfFile2>>
+python3 PDFMerger.py <pdfFile1> <pdfFile2> ... <pdfFileN>
 ```
 
 
