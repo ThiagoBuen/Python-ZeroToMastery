@@ -9,7 +9,7 @@ This repository follows the Zero to Mastery's course, which covers several topic
 Each project and topic has its own folder here and I will try my best to highlight the requirements for each one.
 
 
-## Image Processing:
+## 17 - Scripting Module:
 
 
 ### Functionalities
