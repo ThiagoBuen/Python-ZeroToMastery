@@ -16,6 +16,8 @@ Check each readme file for the respective directory information!
 ### Requirements
 - [Pillow](https://pillow.readthedocs.io/en/stable/)
 - [Python3]
+- [Requests]
+
 
 
 
