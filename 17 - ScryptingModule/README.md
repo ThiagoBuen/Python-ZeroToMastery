@@ -19,11 +19,13 @@ Each project and topic has its own folder here and I will try my best to highlig
 - [X] PDFMerger.py: Automates the .pdf files with python with PyPDF2. At my setup, I save the merged pdf into __./pdfFiles__ directory.
 - [X] watermark.py: Automates the watermarking .pdf files with python and PyPDF2. At my setup, I merge the __./pdfFiles/wtr.pdf__ with the desired PDFs. You can change your watermark model by replacing this file! The generated files are also inside __./pdfFiles__ directory names as __watermarkedPDF#__, wherein # varies as the number of arguments passed to the script.
 - [X] sendEmail.py: Scrypt that sends emails from a gmail account to any receiver. Just fill this script with your own data.
+- [X] passwordChecker.py: Scrypt that verifies if any password has been compromised. It uses k-anonymity technique to preserve user's anonymousness by requesting the pwnedpasswords website analysis. 
 
 
 ### Requirements
 - [Pillow](https://pillow.readthedocs.io/en/stable/)
 - [Python3]
+- [Requests]
 
 #### Image-related scripts
 ``` sh
@@ -33,6 +35,12 @@ pip3 install Pillow
 ``` sh
 pip3 install PyPDF2 
 ```
+
+#### passwordChecker script
+``` sh
+pip3 install requests 
+```
+
 
 ### How to use?
 
@@ -66,4 +74,8 @@ python3 sendEmail.py
 ```
 
 
+- __passwordChecker.py__ :
+``` sh
+python3 passwordChecker.py <password1> <password2> ... <passwordN>
+```
 
