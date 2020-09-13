@@ -92,24 +92,24 @@ python3 passwordChecker.py <password1> <password2> ... <passwordN>
 ```
 
 - __generousTwitterBot.py__ :
--  Enable your twitter account to use developer tools at: https://developer.twitter.com/en/apps
-- Change your API keys, edit the python file as you wish and run: 
+1) Enable your twitter account to use developer tools at: https://developer.twitter.com/en/apps
+2) Change your API keys, edit the python file as you wish and run: 
 ``` sh
 python3 generousTwitterBot.py
 ```
 
 - __TwitterBot.py__ :
--  Enable your twitter account to use developer tools at: https://developer.twitter.com/en/apps
-- Change your API keys, edit the python file as you wish and run: 
+1) Enable your twitter account to use developer tools at: https://developer.twitter.com/en/apps
+2) Change your API keys, edit the python file as you wish and run: 
 
 ``` sh
 python3 TwitterBot.py
 ```
 
 - __SendSMS.py__ :
-- Create your twilio account  at: https://www.twilio.com/
-- Create a trial number
-- Change your API keys, edit the python file as you wish and run: 
+1) Create your twilio account  at: https://www.twilio.com/
+2) Create a trial number
+3) Change your API keys, edit the python file as you wish and run: 
 ``` sh
 python3 SendSMS.py
 ```
