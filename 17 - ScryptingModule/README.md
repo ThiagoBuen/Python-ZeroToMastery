@@ -20,12 +20,17 @@ Each project and topic has its own folder here and I will try my best to highlig
 - [X] watermark.py: Automates the watermarking .pdf files with python and PyPDF2. At my setup, I merge the __./pdfFiles/wtr.pdf__ with the desired PDFs. You can change your watermark model by replacing this file! The generated files are also inside __./pdfFiles__ directory names as __watermarkedPDF#__, wherein # varies as the number of arguments passed to the script.
 - [X] sendEmail.py: Scrypt that sends emails from a gmail account to any receiver. Just fill this script with your own data.
 - [X] passwordChecker.py: Scrypt that verifies if any password has been compromised. It uses k-anonymity technique to preserve user's anonymousness by requesting the pwnedpasswords website analysis. 
+- [X] generousTwitterBot.py: Scrypt that automates the following process of your twitter account through Tweepy API! 
+- [X] TwitterBot.py: Scrypt that likes and retweets certain tweets Tweepy API!
+- [X] SendSMS.py: Scrypt that sends SMS through Twilio API. 
 
 
 ### Requirements
 - [Pillow](https://pillow.readthedocs.io/en/stable/)
 - [Python3]
 - [Requests]
+- [Tweepy](http://docs.tweepy.org/en/latest/)
+- [Twilio](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account)
 
 #### Image-related scripts
 ``` sh
@@ -41,7 +46,15 @@ pip3 install PyPDF2
 pip3 install requests 
 ```
 
+#### twitter related scripts
+``` sh
+pip3 install tweepy 
+```
 
+#### SMS related script
+``` sh
+pip3 install twilio 
+```
 ### How to use?
 
 Most of the scripts run as python3 <<python_file.py>>, yet there is a list bellow with the specific ones:
@@ -73,9 +86,33 @@ __P.S:__ Modify email['from'], email['to'], and smtp.login('', '') lines with yo
 python3 sendEmail.py
 ```
 
-
 - __passwordChecker.py__ :
 ``` sh
 python3 passwordChecker.py <password1> <password2> ... <passwordN>
 ```
+
+- __generousTwitterBot.py__ :
+-  Enable your twitter account to use developer tools at: https://developer.twitter.com/en/apps
+- Change your API keys, edit the python file as you wish and run: 
+``` sh
+python3 generousTwitterBot.py
+```
+
+- __TwitterBot.py__ :
+-  Enable your twitter account to use developer tools at: https://developer.twitter.com/en/apps
+- Change your API keys, edit the python file as you wish and run: 
+
+``` sh
+python3 TwitterBot.py
+```
+
+- __SendSMS.py__ :
+- Create your twilio account  at: https://www.twilio.com/
+- Create a trial number
+- Change your API keys, edit the python file as you wish and run: 
+``` sh
+python3 SendSMS.py
+```
+
+
 
