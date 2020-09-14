@@ -18,6 +18,12 @@ Check each readme file for the respective directory information!
 - [Python3]
 - [Requests]
 
+## 18 - Scraping Data: Under construction.
+
+### Requirements
+- [Python3]
+- [Requests](https://pypi.org/project/requests/)
+- [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)
 
 
 
