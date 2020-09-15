@@ -1,15 +1,11 @@
-# Python-ZeroToMastery
+# Python-ZeroToMastery - Scripting Data
 
 Miscelaneous projects developed with Zero To Mastery's Python Developer coursework. 
 
 ## Description
 
-This repository follows the Zero to Mastery's course, which covers several topics and projects with Python language.
+This repository follows the 17th Zero to Mastery's module, which covers several topics related with Scripting Data with Requests, Pillow, Tweepy, and Twilio.
 
-Each project and topic has its own folder here and I will try my best to highlight the requirements for each one.
-
-
-## 17 - Scripting Module:
 
 
 ### Functionalities
