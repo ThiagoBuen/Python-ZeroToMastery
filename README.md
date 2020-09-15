@@ -14,14 +14,14 @@ Check each readme file for the respective directory information!
 ## 17 - Scripting Module: Several scripts that allows to manipulate miscellaneous applications with python.
 
 ### Requirements
+- Python3
 - [Pillow](https://pillow.readthedocs.io/en/stable/)
-- [Python3]
-- [Requests]
+- [Requests](https://pypi.org/project/requests/)
 
 ## 18 - Scraping Data: Under construction.
 
 ### Requirements
-- [Python3]
+- Python3
 - [Requests](https://pypi.org/project/requests/)
 - [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)
 
